@@ -12,6 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20180524152514) do
 
+
   create_table "comments", force: :cascade do |t|
     t.string "author"
     t.text "comment_entry"
